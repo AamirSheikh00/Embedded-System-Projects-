@@ -7,14 +7,21 @@ https://user-images.githubusercontent.com/69675066/145439554-8b8ae0dd-8b90-46c0-
 <h4>
 Components used : <br><br>
   1.Arduino UNO  <br>
+ 
   ![IMG20211209220630-min](https://user-images.githubusercontent.com/69675066/145441510-41f722a4-1ba4-478e-8b41-698de2ca1821.jpg) 
 
   2.16x2 lcd screen<br>
+  
   3.A push button<br>
+  
   4.A resistor (of resistance between 1 and 10k ohms)<br>
+  
   5.A piezo buzzer<br>
+  
   6.Jumper Wires<br>
+  
   7.Breadboard<br>
+  
   ![IMG20211209220807-min](https://user-images.githubusercontent.com/69675066/145441630-38157e2e-fefe-456f-b5b3-b72c2a6043bb.jpg)
 
 </h4>

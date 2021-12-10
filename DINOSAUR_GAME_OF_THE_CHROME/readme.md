@@ -11,6 +11,7 @@ Components used : <br><br>
   ![IMG20211209220630-min](https://user-images.githubusercontent.com/69675066/145441510-41f722a4-1ba4-478e-8b41-698de2ca1821.jpg) 
 
   2.16x2 lcd screen<br>
+        I found out one cool site https://omerk.github.io/lcdchargen/ where we can generate custom LCD designs and from that I have constructed the DINO character.
   
   3.A push button<br>
   

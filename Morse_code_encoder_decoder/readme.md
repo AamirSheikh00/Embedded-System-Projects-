@@ -11,4 +11,6 @@
 <br><br><br>
 
 
-![MORSE-CODE](https://user-images.githubusercontent.com/69675066/145529410-f534b7d9-ed87-4ecb-aa0d-510ecd6ea42e.png)
+
+
+<!-- ![MORSE-CODE](https://user-images.githubusercontent.com/69675066/145529410-f534b7d9-ed87-4ecb-aa0d-510ecd6ea42e.png) -->

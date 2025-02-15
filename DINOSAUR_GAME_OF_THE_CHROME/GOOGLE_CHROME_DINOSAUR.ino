@@ -114,11 +114,14 @@ lcd.clear();
  distTwo = random(4,9);
 //Generate two random distances for the gap between the trees
 
-// this for loop is to make the trees move
-  for(int i=16; i>=-(dist+distTwo); i--){ 
+ // this for loop is to make the trees move
+ // Rightmost last pos is 15 (T1 + T2 + T3 position)
+ // Sum of the distance of all the trees should not be out of LCDbound
+ //  (0 + 4 + 4) ...(-1 + 4 +4).. (-8 + 4 +4) then after this it will return and if playState is true again startGame() will get called
+  for(int i=15; i +dist + distTwo>=0; i--){  
 
    lcd.setCursor(13,0);
- lcd.print(score);  // print the score
+   lcd.print(score);  // print the score
 
   int state = digitalRead(buttonPin);  
 // Read the push button
@@ -171,11 +174,12 @@ lcd.clear();
   lcd.write(6);
   lcd.setCursor(i+dist+distTwo+1,1);
   lcd.print(" ");
-
- //When the trees reaches the starting point
-  if((i+dist+distTwo)==-1){
-    i=12;                    
-  } // they are taken to the end and set up randomly once more
+   
+// No use of this part... never hit this condtion 
+ // //When the trees reaches the starting point
+ //  if((i+dist+distTwo)==-1){
+ //    i=12;                    
+ //  } // they are taken to the end and set up randomly once more
 
 /*  Now check if the position of the trees 
       and that of the dino coincides, but we
